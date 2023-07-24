@@ -6,9 +6,14 @@ Perfil - {{ usuario }}
 
 {% block body %}
 <body>
-    <h1>Perfil do Fulano: {{ usuario }}</h1>
+    <h1>Perfil do Fulano: {{ usuario.username }}</h1>
 
 <a href="{{ url_for('homepage') }}">Sair</a>
+
+{{% for .foto in usuario.fotos %}}
+    <img>
+{{% endfor %}}
+
 </body>
 
 {% endblock %}
