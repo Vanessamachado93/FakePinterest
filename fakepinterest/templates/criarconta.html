@@ -7,7 +7,7 @@
 
 {% block formulario %}
  <form method="POST">
-  {{ form.csrf_token }}
+     {{ form.csrf_token }}
 
      {{ form.email.label() }}
      {{ form.email() }}
