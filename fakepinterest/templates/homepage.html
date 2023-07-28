@@ -7,11 +7,14 @@
         FakePinterest
         {% endblock %}
     </title>
+     <link rel="stylesheet" href="{{ url_for('static', filename='bootstrap.min.css') }}">
 </head>
 
 {% block body %}
 <body>
+<div class="container">
     <h1>Fake Pinterest no ar!</h1>
+</div>
 {% block formulario %}
  <form method="POST">
   {{ form.csrf_token }}
@@ -23,10 +26,12 @@
      {{ form.senha() }}
 
      {{ form.botao_confirmacao() }}
-
  </form>
-    <a href="{{ url_for('criar_conta') }}">Ainda não tem uma conta? Clique aqui para criar!</a>
+
+    <a href="{{ url_for('criarconta') }}">Ainda não tem uma conta? Clique aqui para criar!</a>
 {% endblock %}
+
+ <script src="{{ url_for('static', filename='bootstrap.min.js') }}"></script>
 
 </body>
 {% endblock body %}
