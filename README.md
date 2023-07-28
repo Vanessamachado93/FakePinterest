@@ -51,6 +51,6 @@ Este projeto é licenciado sob a [MIT License](https://opensource.org/licenses/M
 
 ## Contato
 
-Se você tiver alguma dúvida ou precisar entrar em contato, pode fazê-lo através do meu e-mail: seu.email@example.com.
+Se você tiver alguma dúvida ou precisar entrar em contato, pode fazê-lo através do meu e-mail: machado.vanessa32@hotmail.com
 
 Divirta-se usando o FakePinterest! 😄
